@@ -1,0 +1,14 @@
+{
+	"experience": [{
+		"id": "thelis",
+		"title": "Programador Web en Thelis Unix Data",
+		"time": "5 meses",
+		"desc": "Texto del trabajo."
+	},
+  {
+		"id": "freelance",
+		"title": "Freelance Web Developer",
+		"time": "6 años",
+		"desc": "Texto del trabajo."
+  }]
+}

@@ -1,0 +1,23 @@
+body{
+  background-color: #0277BD;
+  color: white;
+}
+
+.feedback-item {
+  padding: 8px;
+}
+
+.feedback-head{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #18FFFF;
+}
+
+.label-info {
+    background-color: #FFC107;
+    color: black;
+}
+
+.bg-success{
+  color: black;
+}

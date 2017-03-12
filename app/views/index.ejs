@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body>
+    <% sections.experience.forEach(function(item) { %>
+      <h2><%= item.title %></h2>
+      <em><%= item.time %></em>
+      <p><%= item.desc %></p>
+    <% }); %>
+
+    <% include partials/template/jsdefaults.ejs %>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "node-web",
+  "version": "1.0.0",
+  "description": "Web test made in Node.js",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon app/app.js --watch app --ignore feedback.json"
+  },
+  "author": "Xavier Martínez Pujol",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "reload": "^1.1.1",
+    "socket.io": "^1.7.3"
+  }
+}
