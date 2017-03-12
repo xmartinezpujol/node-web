@@ -1,0 +1,7 @@
+{
+  "name" : "Node website",
+  "description": "Una página web hecha en Node.js y Express.js.",
+  "repository": "https://github.com/xmartinezpujol/node-web/",
+  "logo": "https://node-pagweb.herokuapp.com/favicon.ico",
+  "keywords": ["node", "express", "socketio"]
+}
