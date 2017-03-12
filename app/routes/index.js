@@ -5,6 +5,7 @@ routes.get('/', function(req, res) {
 
   res.render('index', {
     pageTitle: 'Xavier Martínez Pujol',
+    pageID: 'home',
     sections: data
   });
 
