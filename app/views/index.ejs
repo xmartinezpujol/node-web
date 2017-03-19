@@ -2,12 +2,103 @@
 <html>
   <head><% include partials/template/head.ejs %></head>
   <body>
-    <% sections.experience.forEach(function(item) { %>
-      <h2><%= item.title %></h2>
-      <em><%= item.time %></em>
-      <p><%= item.desc %></p>
-    <% }); %>
-
+    <section id="page-title">
+      <h1><span style="color:white;">⌠</span> CURRICULUM VITAE <span style="color:white;">⌡</span></h1>
+    </section>
+    <section id="datos-general">
+      <figure>
+        <img class="portrait" src="/images/<%= sections.images[0].url %>" alt="<%= sections.images[0].title %>">
+        <figcaption>Xavier Martínez Pujol</figcaption>
+      </figure>
+      <ul class="badges">
+        <li>Front End Developer</li>
+        <li>Jr. Back End Developer</li>
+        <li>Jr. React Developer</li>
+      </ul>
+      <article class="extracto">
+        <p>Front End Developer camino a Full Stack. Combatiendo en las trincheras de React para apoyar Sass, Node, Express, JSON y MongoDB.</p>
+        <p>Me encanta la programación, las aplicaciones web y las últimas tecnologías. Soy una persona muy proactiva, práctica y con sentido del humor.</p>
+        <p>Actualmente trabajo como Programador Web en UnixData. Durante mi tiempo libre me verás por LinkedIn Learning, Udacity, Codrops, CSS-Tricks, etc, o documentando algo por mi portfolio (en notícias archivo una lista curada propia de recursos).</p>
+      </article>
+      <div class="datos-varios">
+        <article>
+          <h3>Sobre mi<h3>
+          <ul>
+            <li><i class="fa fa-birthday-cake" aria-hidden="true"></i>9.05.1987</li>
+            <li><i class="fa fa-building" aria-hidden="true"></i>Barcelona, España</li>
+            <li><i class="fa fa-id-card" aria-hidden="true"></i>46409563W</li>
+            <li><i class="fa fa-car" aria-hidden="true"></i>B</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Personalidad<h3>
+          <ul>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Proactiva</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Optimista</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Humorística</li>
+            <li><i class="fa fa-check" aria-hidden="true"></i>Autodidacta</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Idiomas</h3>
+          <ul>
+            <li><i class="fa fa-language" aria-hidden="true"></i>Inglés - B2</li>
+            <li><i class="fa fa-language" aria-hidden="true"></i>Español - Nativo</li>
+            <li><i class="fa fa-language" aria-hidden="true"></i>Catalán - Nativo</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Ubicación</h3>
+          <ul>
+            <li><i class="fa fa-home" aria-hidden="true"></i>C/Roger de Flor 299 pr2</li>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>08025 BARCELONA</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>675448054</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <section id="experience">
+    <article>
+      <h2>⏳ Experiencia</h2>
+      <% sections.experience.forEach( item => { %>
+        <h3><%= item.title %></h3>
+        <h4><%= item.enterprise %><strong>(<%= item.time %>)</strong></h4>
+        <p><%= item.desc %></p>
+      <% }); %>
+    </article>
+    </section>
+    <section id="skills">
+    <article>
+    <h2>⚡ Aptitudes</h2>
+      <ul>
+      <% sections.skills.forEach( item => { %>
+        <li><%= item.title %>
+          <% if(item.percent < 33) { %>
+            <span style="color:yellow;">✚</span>
+          <% } else if(item.percent >= 33 && item.percent <= 66) { %>
+            <span style="color:orange;">✚✚</span>
+          <% } else if(item.percent > 66 && item.percent <= 100) { %>
+              <span style="color:lightgreen;">✚✚✚</span>
+          <% } else { %>
+              <span style="color:lightgreen;">☕☕☕☕</span>
+          <% } %>
+        </li>
+      <% }); %>
+      </ul>
+    </article>
+    </section>
+    <section id="education">
+      <article>
+        <h2>🎓 Estudios</h2>
+        <% sections.education.map( item => { %>
+          <h3><%= item.title %></h3>
+          <h4><%= item.institution %><strong>(<%= item.time %>)</strong></h4>
+          <p><%= item.desc %></p>
+        <% }); %>
+      </article>
+    </section>
+    <!-- scripts -->
     <% include partials/template/jsdefaults.ejs %>
+    <footer></footer>
   </body>
 </html>

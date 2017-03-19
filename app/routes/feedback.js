@@ -1,6 +1,6 @@
 var routes = require('express').Router();
 
-routes.get('/feedback', function(req, res) {
+routes.get('/feedback', (req, res) => {
 
   res.render('feedback', {
     pageTitle: 'Feedback',
