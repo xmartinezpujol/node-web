@@ -1,5 +1,5 @@
 var express = require('express');
-var reload = require('reload');
+/*var reload = require('reload');*/
 var sassMiddleware = require('node-sass-middleware');
 var app = express();
 var dataFile = require('./data/data.json');
@@ -9,7 +9,7 @@ var path = require('path');
 app.use(sassMiddleware({
 src: path.join(__dirname, 'sass'),
 dest: path.join(__dirname, 'public'),
-debug: true
+/*debug: true*/
 }));
 
 app.set('port', process.env.PORT || 3000);
@@ -30,4 +30,4 @@ var server = app.listen(app.get('port'), () => console.log('Escuchando a puerto 
 /*io.attach(server);
 io.on('connection', socket => socket.on('postMessage', data => io.emit('updateMessages', data)));*/
 
-reload(server, app);
+/*reload(server, app);*/
