@@ -31,6 +31,26 @@ ul {
         font-size: 12px;
         text-shadow: none; } }
 
+#social {
+  text-align: center;
+  list-style-type: none;
+  margin: 10px 0 20px 0; }
+  #social li {
+    display: inline; }
+    #social li a {
+      padding: 8px; }
+      #social li a i.fa {
+        font-size: 32px;
+        height: 50px;
+        width: 50px;
+        color: #FAFAFA; }
+        #social li a i.fa:hover {
+          color: #6200EA; }
+
+#updated {
+  text-align: center;
+  margin-top: 20px; }
+
 #datos-general ul.badges {
   display: flex;
   align-items: center;
