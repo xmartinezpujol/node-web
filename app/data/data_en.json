@@ -1,0 +1,135 @@
+{	"education": [{
+		"title": "Degree in Multimedia",
+		"institution": "UOC",
+		"time": "2013 - Now",
+		"desc": "3 With Honors - Average marks 9+."
+		},
+		{
+			"title": "High School",
+			"institution": "IES La Sedeta",
+			"time": "2005",
+			"desc": ""
+		}],
+	"experience": [{
+		"id": "thelis",
+		"title": "Web Developer",
+		"enterprise": "Thelis Unix Data",
+		"time": "5 months",
+		"desc": "Development and maintenance of websites for the most important company in the camping market."
+	},
+  {
+		"id": "freelance",
+		"title": "Freelance",
+		"enterprise": "xmpdesign.com",
+		"time": "6 years",
+		"desc": "Design and development of new websites and apps for small businesses and communities, some opensource."
+  },
+  {
+		"id": "becario",
+		"title": "Webmaster",
+		"enterprise": "UPC",
+		"time": "1 year",
+		"desc": "Creation of a new website for Delegació d' Estudiants de ETSEIB."
+  }],
+	"skills": [{
+		"title": "Wordpress",
+		"percent": 90
+	},
+	{
+		"title": "HTML5",
+		"percent": 100
+	},
+	{
+		"title": "CSS3",
+		"percent": 100
+	},
+	{
+		"title": "Javascript",
+		"percent": 80
+	},
+	{
+		"title": "PHP",
+		"percent": 60
+	},
+	{
+		"title": "JSON",
+		"percent": 80
+	},
+	{
+		"title": "SQL",
+		"percent": 40
+	},
+	{
+		"title": "Google Analytics",
+		"percent": 70
+	},
+	{
+		"title": "Photoshop",
+		"percent": 60
+	},
+	{
+		"title": "Illustrator",
+		"percent": 60
+	},
+	{
+		"title": "XP Design",
+		"percent": 50
+	},
+	{
+		"title": "3dsMax",
+		"percent":40
+	},
+	{
+		"title": "Git",
+		"percent": 60
+	},
+	{
+		"title": "Agile",
+		"percent": 90
+	},
+	{
+		"title": "SASS",
+		"percent": 80
+	},
+	{
+		"title": "Bootstrap",
+		"percent": 100
+	},
+	{
+		"title": "Gulp",
+		"percent": 80
+	},
+	{
+		"title": "JavascriptMVC",
+		"percent": 40
+	},
+	{
+		"title": "jQuery",
+		"percent": 70
+	},
+	{
+		"title": "Node.js",
+		"percent": 20
+	},
+	{
+		"title": "Express.js",
+		"percent": 30
+	},
+	{
+		"title": "React",
+		"percent": 20
+	},
+	{
+		"title": "Redux",
+		"percent": 20
+	},
+	{
+		"title": "Puns",
+		"percent": 200
+	}
+],
+"images": [{
+	"title": "Xavier Martínez Pujol",
+	"url": "portrait.jpg"
+}]
+}

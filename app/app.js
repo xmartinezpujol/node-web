@@ -2,7 +2,7 @@ var express = require('express');
 /*var reload = require('reload');*/
 var sassMiddleware = require('node-sass-middleware');
 var app = express();
-var dataFile = require('./data/data.json');
+var dataFile = require('./data/data_en.json');
 /*var io = require('socket.io')();*/
 var path = require('path');
 
