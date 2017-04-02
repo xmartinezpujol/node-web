@@ -39,6 +39,7 @@ body{
 
 h1, h2, p, ul{
   margin: 0;
+  padding: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   -webkit-margin-start: 0;
@@ -80,7 +81,7 @@ ul{
       i.fa {
         font-size: 32px;
         height: 50px;
-        width: 50px;        
+        width: 50px;
         color: $white;
         &:hover {
           color: $violet;
@@ -97,23 +98,29 @@ ul{
 
 #datos-general{
   ul.badges{
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
     @include media-breakpoint-max(sm) {
       flex-flow: column;
     }
     li{
       font-family: $font-duo;
-      flex: 1;
+      -webkit-flex: 1;      -ms-flex: 1;      flex: 1;
       background-color: $violet;
       border-top-left-radius: 35px;
       border-bottom-right-radius: 35px;
       //border: 1px solid $violet-dark;
       font-size: 16px;
       min-width: 100px;
-      max-width: 250px;
+      max-width: 260px;
       margin: -10px 20px 20px 20px;
       padding: 10px;
       -webkit-box-shadow: 0px 4px 10px -1px rgba(0,0,0,0.68);
@@ -146,23 +153,29 @@ ul{
 }
 
 .datos-varios{
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: stretch;
-  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   max-width: 1100px;
   margin: 20px auto;
   @include media-breakpoint-max(sm) {
-    flex-flow: column;
+    -webkit-flex-flow: column;    -ms-flex-flow: column;    flex-flow: column;
     width: 100%;
   }
   @include media-breakpoint(sm) {
-    justify-content: space-around;
+    -webkit-justify-content: space-around;    -ms-flex-pack: distribute;    justify-content: space-around;
   }
   @include media-breakpoint(hd) {
-    justify-content: space-between;
+    -webkit-justify-content: space-between;    -ms-flex-pack: justify;    justify-content: space-between;
   }
   article{
-    flex: 0 0 250px;
+    -webkit-flex: 0 0 250px;    -ms-flex: 0 0 250px;    flex: 0 0 250px;
     width: 250px;
     margin: 10px 0 10px 0;
     height: 250px;
@@ -195,7 +208,7 @@ ul{
     }
   }
   li{
-    font-size: 14px;
+    font-size: 13px;
     line-height: 28px;
     font-weight: 500;
     i{
@@ -373,8 +386,5 @@ section {
     -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
-  }
-  .datos-general{
-
   }
 }

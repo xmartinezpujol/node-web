@@ -6,6 +6,7 @@ body {
 
 h1, h2, p, ul {
   margin: 0;
+  padding: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   -webkit-margin-start: 0;
@@ -52,8 +53,14 @@ ul {
   margin-top: 20px; }
 
 #datos-general ul.badges {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center; }
   @media (max-width: 575px) {
@@ -61,13 +68,15 @@ ul {
       flex-flow: column; } }
   #datos-general ul.badges li {
     font-family: "Roboto", sans-serif;
+    -webkit-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     background-color: #6200EA;
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
     font-size: 16px;
     min-width: 100px;
-    max-width: 250px;
+    max-width: 260px;
     margin: -10px 20px 20px 20px;
     padding: 10px;
     -webkit-box-shadow: 0px 4px 10px -1px rgba(0, 0, 0, 0.68);
@@ -95,22 +104,36 @@ ul {
     padding: 10px 35px 10px 35px; }
 
 .datos-varios {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
   align-items: stretch;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   max-width: 1100px;
   margin: 20px auto; }
   @media (max-width: 575px) {
     .datos-varios {
+      -webkit-flex-flow: column;
+      -ms-flex-flow: column;
       flex-flow: column;
       width: 100%; } }
   @media (min-width: 576px) {
     .datos-varios {
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
       justify-content: space-around; } }
   @media (min-width: 1200px) {
     .datos-varios {
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
       justify-content: space-between; } }
   .datos-varios article {
+    -webkit-flex: 0 0 250px;
+    -ms-flex: 0 0 250px;
     flex: 0 0 250px;
     width: 250px;
     margin: 10px 0 10px 0;
@@ -139,7 +162,7 @@ ul {
       background-color: #E1F5FE;
       color: #303F9F; }
   .datos-varios li {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 28px;
     font-weight: 500; }
     .datos-varios li i {
