@@ -11,10 +11,17 @@
 			"desc": ""
 		}],
 	"experience": [{
+		"id": "movetia",
+		"title": "Senior Frontend Developer",
+		"enterprise": "Movetia",
+		"time": "3 months",
+		"desc": "Frontend development for spanish bank companies. Agile development in a team of 10+ professionals (UI/UX - iOS/Android - Front)."
+	},
+	{
 		"id": "thelis",
 		"title": "Web Developer",
 		"enterprise": "Thelis Unix Data",
-		"time": "5 months",
+		"time": "6 months",
 		"desc": "Development and maintenance of websites for the most important company in the spanish camping market."
 	},
   {
@@ -31,10 +38,7 @@
 		"time": "1 year",
 		"desc": "Creation of a new website for Delegació d' Estudiants de ETSEIB."
   }],
-	"skills": [{
-		"title": "Wordpress",
-		"percent": 90
-	},
+	"skills": [
 	{
 		"title": "HTML5",
 		"percent": 100
@@ -45,7 +49,31 @@
 	},
 	{
 		"title": "Javascript",
-		"percent": 80
+		"percent": 100
+	},
+	{
+		"title": "ECMA6",
+		"percent": 60
+	},
+	{
+		"title": "Node.js",
+		"percent": 20
+	},
+	{
+		"title": "Express.js",
+		"percent": 30
+	},
+	{
+		"title": "React",
+		"percent": 60
+	},
+	{
+		"title": "Redux",
+		"percent": 20
+	},
+	{
+		"title": "Wordpress",
+		"percent": 90
 	},
 	{
 		"title": "PHP",
@@ -81,15 +109,15 @@
 	},
 	{
 		"title": "Git",
-		"percent": 60
+		"percent": 100
 	},
 	{
 		"title": "Agile",
-		"percent": 90
+		"percent": 100
 	},
 	{
 		"title": "SASS",
-		"percent": 80
+		"percent": 100
 	},
 	{
 		"title": "Bootstrap",
@@ -97,7 +125,11 @@
 	},
 	{
 		"title": "Gulp",
-		"percent": 80
+		"percent": 100
+	},
+	{
+		"title": "Webpack",
+		"percent": 60
 	},
 	{
 		"title": "JavascriptMVC",
@@ -106,22 +138,6 @@
 	{
 		"title": "jQuery",
 		"percent": 70
-	},
-	{
-		"title": "Node.js",
-		"percent": 20
-	},
-	{
-		"title": "Express.js",
-		"percent": 30
-	},
-	{
-		"title": "React",
-		"percent": 20
-	},
-	{
-		"title": "Redux",
-		"percent": 20
 	},
 	{
 		"title": "Puns",
