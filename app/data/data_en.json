@@ -88,6 +88,10 @@
 		"percent": 40
 	},
 	{
+		"title": "MongoDB",
+		"percent": 20
+	},
+	{
 		"title": "Google Analytics",
 		"percent": 70
 	},
@@ -129,6 +133,10 @@
 	},
 	{
 		"title": "Webpack",
+		"percent": 60
+	},
+	{
+		"title": "Npm",
 		"percent": 60
 	},
 	{
