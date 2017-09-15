@@ -10,26 +10,34 @@
 			"time": "2005",
 			"desc": ""
 		}],
-	"experience": [{
+	"experience": [
+	{
+		"id": "xceed",
+		"title": "Javascript Developer",
+		"enterprise": "Xceed",
+		"time": "Now",
+		"desc": "Creation of new components in React for the web app."
+	},
+	{
 		"id": "movetia",
 		"title": "Senior Frontend Developer",
 		"enterprise": "Movetia",
-		"time": "3 months",
-		"desc": "Frontend development for spanish bank companies. Agile development in a team of 10+ professionals (UI/UX - iOS/Android - Front)."
+		"time": "5 months",
+		"desc": "Frontend development for spanish bank companies. Agile development in a team of 10+ professionals."
 	},
 	{
 		"id": "thelis",
 		"title": "Web Developer",
 		"enterprise": "Thelis Unix Data",
 		"time": "6 months",
-		"desc": "Development and maintenance of websites for the most important company in the spanish camping market."
+		"desc": "WordPress templates and plugins (from scratch) for campsites and resorts. SEO & Optimization."
 	},
   {
 		"id": "freelance",
 		"title": "Freelance",
 		"enterprise": "xmpdesign.com",
 		"time": "6 years",
-		"desc": "Design and development of new websites and apps for small businesses and communities, some opensource."
+		"desc": "Freelance projects for small businesses, apps and websites."
   },
   {
 		"id": "becario",
@@ -40,6 +48,34 @@
   }],
 	"skills": [
 	{
+		"title": "React",
+		"percent": 80
+	},
+	{
+		"title": "Redux",
+		"percent": 60
+	},
+	{
+		"title": "Storybook",
+		"percent": 50
+	},
+	{
+		"title": "Glamorous",
+		"percent": 40
+	},
+	{
+		"title": "Router",
+		"percent": 80
+	},
+	{
+		"title": "React Native",
+		"percent": 20
+	},
+	{
+		"title": "Javascript",
+		"percent": 100
+	},
+	{
 		"title": "HTML5",
 		"percent": 100
 	},
@@ -48,12 +84,8 @@
 		"percent": 100
 	},
 	{
-		"title": "Javascript",
-		"percent": 100
-	},
-	{
 		"title": "ECMA6",
-		"percent": 60
+		"percent": 80
 	},
 	{
 		"title": "Node.js",
@@ -64,52 +96,8 @@
 		"percent": 30
 	},
 	{
-		"title": "React",
-		"percent": 60
-	},
-	{
-		"title": "Redux",
+		"title": "REST API",
 		"percent": 20
-	},
-	{
-		"title": "Wordpress",
-		"percent": 90
-	},
-	{
-		"title": "PHP",
-		"percent": 60
-	},
-	{
-		"title": "JSON",
-		"percent": 80
-	},
-	{
-		"title": "SQL",
-		"percent": 40
-	},
-	{
-		"title": "MongoDB",
-		"percent": 20
-	},
-	{
-		"title": "Google Analytics",
-		"percent": 70
-	},
-	{
-		"title": "Photoshop",
-		"percent": 60
-	},
-	{
-		"title": "Illustrator",
-		"percent": 60
-	},
-	{
-		"title": "XP Design",
-		"percent": 50
-	},
-	{
-		"title": "3dsMax",
-		"percent":40
 	},
 	{
 		"title": "Git",
@@ -120,11 +108,7 @@
 		"percent": 100
 	},
 	{
-		"title": "SASS",
-		"percent": 100
-	},
-	{
-		"title": "Bootstrap",
+		"title": "SASS/LESS",
 		"percent": 100
 	},
 	{
@@ -133,19 +117,11 @@
 	},
 	{
 		"title": "Webpack",
-		"percent": 60
+		"percent": 80
 	},
 	{
 		"title": "Npm",
 		"percent": 60
-	},
-	{
-		"title": "JavascriptMVC",
-		"percent": 40
-	},
-	{
-		"title": "jQuery",
-		"percent": 70
 	},
 	{
 		"title": "Puns",
@@ -154,6 +130,6 @@
 ],
 "images": [{
 	"title": "Xavier Martínez Pujol",
-	"url": "portrait.jpg"
+	"url": "portrait2.jpg"
 }]
 }
