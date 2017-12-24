@@ -16,7 +16,7 @@
 		"title": "Javascript Developer",
 		"enterprise": "Xceed",
 		"time": "Now",
-		"desc": "Creation of new components in React for the web app."
+		"desc": "Migration of Admin and Nightgraph to React."
 	},
 	{
 		"id": "movetia",
@@ -49,27 +49,35 @@
 	"skills": [
 	{
 		"title": "React",
-		"percent": 80
+		"percent": 100
 	},
 	{
 		"title": "Redux",
-		"percent": 60
+		"percent": 100
 	},
 	{
 		"title": "Storybook",
-		"percent": 50
+		"percent": 100
 	},
 	{
 		"title": "Glamorous",
-		"percent": 40
+		"percent": 100
+	},
+	{
+		"title": "Glamorous",
+		"percent": 100
+	},
+	{
+		"title": "Enzyme",
+		"percent": 20
 	},
 	{
 		"title": "Router",
-		"percent": 80
+		"percent": 100
 	},
 	{
 		"title": "React Native",
-		"percent": 20
+		"percent": 60
 	},
 	{
 		"title": "Javascript",
@@ -85,7 +93,7 @@
 	},
 	{
 		"title": "ECMA6",
-		"percent": 80
+		"percent": 100
 	},
 	{
 		"title": "Node.js",
@@ -97,6 +105,14 @@
 	},
 	{
 		"title": "REST API",
+		"percent": 60
+	},
+	{
+		"title": "GraphQL",
+		"percent": 20
+	},
+	{
+		"title": "Apollo",
 		"percent": 20
 	},
 	{
@@ -117,11 +133,11 @@
 	},
 	{
 		"title": "Webpack",
-		"percent": 80
+		"percent": 100
 	},
 	{
-		"title": "Npm",
-		"percent": 60
+		"title": "Npm/Yarn",
+		"percent": 100
 	},
 	{
 		"title": "Puns",
