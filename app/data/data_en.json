@@ -13,10 +13,10 @@
 	"experience": [
 	{
 		"id": "xceed",
-		"title": "Javascript Developer",
+		"title": "Lead Frontend Developer",
 		"enterprise": "Xceed",
 		"time": "Now",
-		"desc": "Migration of Admin and Nightgraph to React."
+		"desc": "Architecture of the whole React stack for Xceed."
 	},
 	{
 		"id": "movetia",
@@ -69,7 +69,15 @@
 	},
 	{
 		"title": "Enzyme",
-		"percent": 20
+		"percent": 80
+	},
+	{
+		"title": "Jest",
+		"percent": 100
+	},
+	{
+		"title": "Cypress",
+		"percent": 60
 	},
 	{
 		"title": "Router",
@@ -140,12 +148,20 @@
 		"percent": 100
 	},
 	{
+		"title": "Docker",
+		"percent": 100
+	},
+	{
+		"title": "Jenkins",
+		"percent": 20
+	},
+	{
 		"title": "Puns",
 		"percent": 200
 	}
 ],
 "images": [{
 	"title": "Xavier Martínez Pujol",
-	"url": "portrait2.jpg"
+	"url": "xmp.jpg"
 }]
 }
