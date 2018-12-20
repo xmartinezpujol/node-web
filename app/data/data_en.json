@@ -77,7 +77,7 @@
 	},
 	{
 		"title": "Cypress",
-		"percent": 60
+		"percent": 100
 	},
 	{
 		"title": "Router",
@@ -85,7 +85,7 @@
 	},
 	{
 		"title": "React Native",
-		"percent": 60
+		"percent": 100
 	},
 	{
 		"title": "Javascript",
@@ -105,15 +105,15 @@
 	},
 	{
 		"title": "Node.js",
-		"percent": 20
+		"percent": 50
 	},
 	{
 		"title": "Express.js",
-		"percent": 30
+		"percent": 50
 	},
 	{
 		"title": "REST API",
-		"percent": 60
+		"percent": 80
 	},
 	{
 		"title": "GraphQL",
@@ -162,6 +162,6 @@
 ],
 "images": [{
 	"title": "Xavier Martínez Pujol",
-	"url": "xmp.jpg"
+	"url": "xmpup.jpg"
 }]
 }
