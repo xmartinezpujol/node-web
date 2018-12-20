@@ -64,8 +64,8 @@
 		"percent": 100
 	},
 	{
-		"title": "Glamorous",
-		"percent": 100
+		"title": "Symfony",
+		"percent": 20
 	},
 	{
 		"title": "Enzyme",
@@ -136,7 +136,7 @@
 		"percent": 100
 	},
 	{
-		"title": "Gulp",
+		"title": "Twig",
 		"percent": 100
 	},
 	{
