@@ -75,11 +75,11 @@
 		"percent": 100
 	},
 	{
-		"title": "Styled-components",
+		"title": "styled-comp",
 		"percent": 100
 	},
 	{
-		"title": "Symfony",
+		"title": "Symfony/Twig",
 		"percent": 20
 	},
 	{
@@ -96,10 +96,6 @@
 	},
 	{
 		"title": "Router",
-		"percent": 100
-	},
-	{
-		"title": "Javascript",
 		"percent": 100
 	},
 	{
@@ -144,10 +140,6 @@
 	},
 	{
 		"title": "SASS/LESS",
-		"percent": 100
-	},
-	{
-		"title": "Twig",
 		"percent": 100
 	},
 	{
