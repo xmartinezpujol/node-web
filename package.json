@@ -16,6 +16,6 @@
     "node-sass": "^4.5.0",
     "node-sass-middleware": "^0.11.0",
     "reload": "^1.1.1",
-    "socket.io": "^1.7.3"
+    "socket.io": "^2.1.0"
   }
 }
