@@ -15,7 +15,7 @@
     "fs": "0.0.1-security",
     "node-sass": "^4.5.0",
     "node-sass-middleware": "^0.11.0",
-    "reload": "^1.1.1",
+    "reload": "^2.2.0",
     "socket.io": "^1.7.3"
   }
 }
